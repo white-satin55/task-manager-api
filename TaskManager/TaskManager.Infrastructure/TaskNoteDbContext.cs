@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TaskManager.Application;
 using TaskManager.Domain;
+using TaskManager.Infrastructure.Configurations;
 
 namespace TaskManager.Infrastructure
 {
@@ -12,6 +13,12 @@ namespace TaskManager.Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(connectionString);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new TaskNoteConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
 
         public void CreateTask(TaskNote note)
