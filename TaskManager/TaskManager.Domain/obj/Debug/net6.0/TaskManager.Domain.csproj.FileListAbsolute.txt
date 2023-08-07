@@ -1,0 +1,12 @@
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\bin\Debug\net6.0\TaskManager.Domain.deps.json
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\bin\Debug\net6.0\TaskManager.Domain.dll
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\bin\Debug\net6.0\TaskManager.Domain.pdb
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.csproj.AssemblyReference.cache
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.AssemblyInfoInputs.cache
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.AssemblyInfo.cs
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.dll
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\refint\TaskManager.Domain.dll
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\TaskManager.Domain.pdb
+D:\Projects\TaskManager\task-manager-api\TaskManager\TaskManager.Domain\obj\Debug\net6.0\ref\TaskManager.Domain.dll
