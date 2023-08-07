@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "127rN0KEhnr8jPV1HLmtgrGshuRWItwG5OwOFpwwAHV4B2vjil0w+a5IfbD3FO7xFX1fIsLIIx0dlfdxO2GFAQ==",
+  "dgSpecHash": "rGb5wndOd3iX6r7w51WHgqmeE922HC08XYJplOm2P8wQu/dNwjdyAqd2nKnm4nH6vI3hoN4vPVP4MOV0gJnNtw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\TaskManager\\task-manager-api\\TaskManager\\TaskManager.Application\\TaskManager.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
