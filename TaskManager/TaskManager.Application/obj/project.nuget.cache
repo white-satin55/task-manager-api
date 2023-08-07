@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7FvnKibN+F/yMCIT5jRmfFsFyqSaoPUPwq4jDLriUSWqI34yWtWRgazk5UOeB+oQlXJU96hmkBGSLMTl3Yoz+Q==",
+  "dgSpecHash": "127rN0KEhnr8jPV1HLmtgrGshuRWItwG5OwOFpwwAHV4B2vjil0w+a5IfbD3FO7xFX1fIsLIIx0dlfdxO2GFAQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\TaskManager\\task-manager-api\\TaskManager\\TaskManager.Application\\TaskManager.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

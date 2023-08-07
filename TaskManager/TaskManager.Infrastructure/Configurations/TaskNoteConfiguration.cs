@@ -8,7 +8,8 @@ namespace TaskManager.Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<TaskNote> builder)
         {
-            
+            builder.HasKey(t => t.Id);
+            builder.ToTable("tasks");
         }
     }
 }

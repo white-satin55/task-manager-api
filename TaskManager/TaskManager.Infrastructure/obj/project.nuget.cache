@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WRSTNPJKxpOjCJ0qx/q0Z3ba3ass6amJK9p8ypVCwIIGrBzxwd/CPHrGLmVBF1LWPhGTaFEBuRKKH6JhX0OWPA==",
+  "dgSpecHash": "PpEt/JD657UHGf8ZNV44K9m40T17l9vXpae3c/e+BJjkUngE9wMWOPl3uY8SbKYAiFT0sR+foj5aQyy5DjdHAQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\TaskManager\\task-manager-api\\TaskManager\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",

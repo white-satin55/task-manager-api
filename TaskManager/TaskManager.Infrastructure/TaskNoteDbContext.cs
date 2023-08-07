@@ -5,7 +5,7 @@ using TaskManager.Infrastructure.Configurations;
 
 namespace TaskManager.Infrastructure
 {
-    public class TaskNoteDbContext : DbContext, ITaskNoteRepository
+    public class TaskNoteDbContext : DbContext
     {
         protected string connectionString = "host=localhost;port=5432;database=tasks;username=task_manager;password=pass1234";
         public DbSet<TaskNote> Tasks => Set<TaskNote>();
@@ -19,41 +19,6 @@ namespace TaskManager.Infrastructure
         {
             modelBuilder.ApplyConfiguration(new TaskNoteConfiguration());
             base.OnModelCreating(modelBuilder);
-        }
-
-        public void CreateTask(TaskNote note)
-        {
-            Tasks.Add(note);
-            SaveChanges();
-        }
-
-        public TaskNote DeleteTask(int id)
-        {
-            var task = Tasks.SingleOrDefault(x => x.Id == id);
-            if (!(task is null))
-                Tasks.Remove(task);
-
-            SaveChanges();
-
-            return task;
-        }
-
-        public IEnumerable<TaskNote> GetTasks(Func<TaskNote, bool> condition, int count)
-        {
-            return Tasks.Where(condition).Take(count);
-        }
-
-        public TaskNote GetTask(int id)
-        {
-            var task = Tasks.SingleOrDefault(x => x.Id == id);
-
-            return task;
-        }
-
-        public void UpdateTask(TaskNote note)
-        {
-            Tasks.Update(note);
-            SaveChanges();
-        }
+        }        
     }
 }
