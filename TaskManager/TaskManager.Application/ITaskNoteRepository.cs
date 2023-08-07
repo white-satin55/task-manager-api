@@ -4,7 +4,7 @@ namespace TaskManager.Application
 {
     public interface ITaskNoteRepository
     {
-        ICollection<TaskNote> GetAllTasks();
+        IEnumerable<TaskNote> GetTasks(Func<TaskNote, bool> condition, int count);
         TaskNote GetTask(int id);
         void CreateTask(TaskNote note);
         void UpdateTask(TaskNote note);
