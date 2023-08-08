@@ -1,4 +1,4 @@
-﻿using TaskManager.Application;
+﻿using TaskManager.Application.Interfaces;
 using TaskManager.Domain;
 using MediatR;
 

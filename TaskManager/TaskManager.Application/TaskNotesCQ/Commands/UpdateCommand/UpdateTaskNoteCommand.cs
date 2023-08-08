@@ -2,7 +2,7 @@
 
 namespace TaskManager.Application.TaskNotesCQ.Commands.UpdateCommand
 {
-    public class UpdateTaskNoteCommand : IRequest<Guid>
+    public class UpdateTaskNoteCommand : IRequest<Unit>
     {
         public Guid Id { get; set; }
         public string Title { get; set; }

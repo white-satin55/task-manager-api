@@ -34,6 +34,9 @@ namespace TaskManager.Application.TaskNotesCQ.Commands.UpdateCommand
             taskNote.Description = request.Description;
             taskNote.Deadline = request.Deadline;
 
+            await _repository.Update(taskNote);
+            await _repository.SaveChanges();
+
             return Unit.Value;
         }        
     }

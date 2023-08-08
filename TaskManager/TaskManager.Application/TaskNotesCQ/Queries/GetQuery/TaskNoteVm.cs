@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace TaskManager.Application.TaskNotesCQ.Queries.GetTaskNote
+namespace TaskManager.Application.TaskNotesCQ.Queries.GetQuery
 {
     public class TaskNoteVm 
     {
@@ -9,7 +9,5 @@ namespace TaskManager.Application.TaskNotesCQ.Queries.GetTaskNote
         public string? Description { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? Deadline { get; set; }
-
-
     }
 }
